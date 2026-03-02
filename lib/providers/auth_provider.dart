@@ -10,6 +10,8 @@ class AppAuthProvider extends ChangeNotifier {
   final AuthService _authService;
 
   AppAuthProvider(this._authService) {
+    // Set language code to suppress "X-Firebase-Locale null" warnings
+    FirebaseAuth.instance.setLanguageCode('en');
     _init();
   }
 

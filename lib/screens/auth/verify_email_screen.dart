@@ -18,8 +18,8 @@ class _VerifyEmailScreenState extends State<VerifyEmailScreen> {
   @override
   void initState() {
     super.initState();
-    // Poll every 3 seconds for verification
-    _timer = Timer.periodic(const Duration(seconds: 3), (_) async {
+    // Poll every 6 seconds for verification (reduced from 3s to cut log noise)
+    _timer = Timer.periodic(const Duration(seconds: 6), (_) async {
       await context.read<AppAuthProvider>().reloadUser();
     });
   }

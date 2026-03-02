@@ -129,7 +129,7 @@ lib/
 1. Go to [Google Cloud Console](https://console.cloud.google.com)
 2. Enable **Maps SDK for Android**
 3. Create an API Key
-4. Replace `YOUR_GOOGLE_MAPS_API_KEY` in `android/app/src/main/AndroidManifest.xml`
+4. Replace `AIzaSyAXCmy04gtBTiuz0B9OM6hWK1lteN3_wc8` in `android/app/src/main/AndroidManifest.xml`
 
 ---
 
