@@ -1,0 +1,65 @@
+﻿
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé A new version of Flutter is available!                  Γöé
+Γöé                                                         Γöé
+Γöé To update to the latest version, run "flutter upgrade". Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+Running Gradle task 'assembleRelease'...                        
+flutter : e: file:///C:/Users/ifegw
+/OneDrive/Desktop/Kigali%20City%20S
+ervices/Kigali-city-service/android
+/app/build.gradle.kts:9:23: 
+Unresolved reference: Properties
+At line:1 char:1
++ flutter build apk 2>&1 | 
+Out-File build_error.txt
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotS 
+   pecified: (e: file:///C:/U...n  
+  ce: Properties:String) [], Rem   
+ oteException
+    + FullyQualifiedErrorId : Nati 
+   veCommandError
+ 
+
+FAILURE: Build failed with an 
+exception.
+
+* Where:
+Build file 'C:\Users\ifegw\OneDrive
+\Desktop\Kigali City Services\Kigal
+i-city-service\android\app\build.gr
+adle.kts' line: 9
+
+* What went wrong:
+Script compilation errors:
+
+  Line 09: val localProperties = 
+Properties()
+                                 ^ 
+Unresolved reference: Properties
+
+  Line 29:         jvmTarget = 
+JavaVersion.VERSION_17.toString()
+                   ^ 'jvmTarget: 
+String' is deprecated. Please 
+migrate to the compilerOptions 
+DSL. More details are here: 
+https://kotl.in/u1r8ln
+
+2 errors
+
+* Try:
+> Run with --stacktrace option to 
+get the stack trace.
+> Run with --info or --debug 
+option to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 36s
+Running Gradle task 'assembleRelease'...                           37.2s
+Gradle task assembleRelease failed 
+with exit code 1
